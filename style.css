@@ -1,0 +1,17 @@
+body {
+  background:	#FFF8DC;
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+a {
+  color: #00B7FF;
+}
+.lobster{
+  font-family: 'Lobster', cursive;
+}
+.shadow{
+  font-family: 'Shadows Into Light Two', cursive;
+}
+.quitar-float{
+  float: none;
+}

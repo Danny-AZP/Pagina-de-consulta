@@ -1,0 +1,21 @@
+<div class="container">
+    <br />
+    <!-- Importante indicar el path donde se encuentra el metodo POST -->
+    <form action="/clienteForm/cliente/operar" method="POST">
+        <input type="hidden" name="_id" value="{{cliente._id}}"/>
+        <div class="form-group">
+            <label for="Nombres">Nombres:</label>
+            <input type="nombres" class="form-control" id="nombres" name="nombres" value="{{cliente.nombres}}">
+        </div>
+        <div class="form-group">
+            <label for="apellidos">Apellidos:</label>
+            <input type="text" class="form-control" id="apellidos" name="apellidos" value="{{cliente.apellidos}}">
+        </div>
+        <div class="form-group">
+            <label for="edad">Edad:</label>
+            <input type="number" class="form-control" id="edad" name="edad" value="{{cliente.edad}}">
+        </div>
+        <button type="submit" class="btn btn-primary">Aceptar</button>
+        <a href="/" class="btn btn-danger">Cancelar</a>
+    </form>
+</div>
